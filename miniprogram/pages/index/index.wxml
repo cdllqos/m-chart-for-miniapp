@@ -1,0 +1,4 @@
+<m-chart options="{{options}}"></m-chart>
+<button bindtap="changeOptions">
+    按钮文本
+</button>

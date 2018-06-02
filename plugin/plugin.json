@@ -1,0 +1,6 @@
+{
+  "publicComponents": {
+    "chart": "components/m-chart/m-chart"
+  },
+  "main": "index.js"
+}

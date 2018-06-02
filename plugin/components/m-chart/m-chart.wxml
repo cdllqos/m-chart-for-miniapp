@@ -1,0 +1,7 @@
+<canvas class="m-chart"
+    style="width:{{box.width}};height:{{box.height}}rpx;"
+    canvas-id="{{chartId}}"
+    bindinit="_init"
+    bindtouchstart="{{ _currentOptions.disableTouch ? '' : '_touchStart' }}"
+    bindtouchmove="{{ _currentOptions.disableTouch ? '' : '_touchMove' }}"
+    bindtouchend="{{ _currentOptions.disableTouch ? '' : '_touchEnd' }}"></canvas>
